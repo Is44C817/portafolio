@@ -12,6 +12,7 @@ import { DialogSolisticaComponent } from './components/dialog-solistica/dialog-s
 import {MatCardModule} from '@angular/material/card';
 import { ProfileComponent } from './components/profile/profile.component';
 import { DialogHuellaComponent } from './components/dialog-huella/dialog-huella.component';
+import { TecnologiasComponent } from './components/tecnologias/tecnologias.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { DialogHuellaComponent } from './components/dialog-huella/dialog-huella.
     DialogSolisticaComponent,
     ProfileComponent,
     DialogHuellaComponent,
+    TecnologiasComponent,
 
   ],
   imports: [
