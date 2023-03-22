@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dialog-solistica.component.scss']
 })
 export class DialogSolisticaComponent implements OnInit {
+  solisticaImage: string;
 
-  constructor() { }
+  constructor() {
+    this.solisticaImage = "https://ik.imagekit.io/isaacsanchez/solistica.png?updatedAt=1679508256246"
+   }
 
   ngOnInit(): void {
   }

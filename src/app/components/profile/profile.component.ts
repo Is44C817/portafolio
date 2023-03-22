@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./profile.component.scss']
 })
 export class ProfileComponent implements OnInit {
+  foto: string;
 
-  constructor() { }
+  constructor() { 
+    this.foto = "https://ik.imagekit.io/isaacsanchez/foto.jpeg?updatedAt=1679508214190"
+  }
 
   ngOnInit(): void {
   }

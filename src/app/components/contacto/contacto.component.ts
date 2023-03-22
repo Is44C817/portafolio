@@ -20,8 +20,8 @@ export class ContactoComponent implements OnInit {
     this.creado = "Creado por Isaac Sánchez (2023) ©";
     this.hrefGithub = "https://github.com/Is44C817"
     this.hrefLinkedin = "https://www.linkedin.com/in/isaac-s%C3%A1nchez-2a14a792/"
-    this.svgGithub = "../../../assets/github.svg"
-    this.svgLinkedin = "../../../assets/linkedin.svg"
+    this.svgGithub = "https://ik.imagekit.io/isaacsanchez/github.svg?updatedAt=1679508253386"
+    this.svgLinkedin = "https://ik.imagekit.io/isaacsanchez/linkedin.svg?updatedAt=1679508254084"
    }
 
   ngOnInit(): void {
