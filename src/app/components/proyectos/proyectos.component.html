@@ -10,21 +10,24 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
+            <mat-card style="text-align: center;">
+                <mat-card-title class="title-dialog">Solistica</mat-card-title>
+                    <mat-card-actions>
+                        <p class="description-dialog">Maquetación y consumo de servicios json para sus listas de pedidos y viajes. Mediante Angular v15, typescript, scss, angular material.</p>
+                        <button mat-button (click)="openDialogSolistica()">Maqueta</button>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+        <div class="col-md-6">
             <mat-card style="text-align: center;">
               
-                        <mat-card-title class="title-dialog">Solistica</mat-card-title>
+            <mat-card-title class="title-dialog">Fake Detection  BBVA</mat-card-title>
                 <mat-card-actions>
-                    <p class="description-dialog">Maquetación y consumo de servicios json para sus listas de pedidos y viajes. Mediante Angular v15, typescript, scss, angular material.</p>
-                    <button mat-button (click)="openDialogSolistica()">Maqueta</button>
+                    <p class="description-dialog">Creación del guardado de score Fake Detection y parametrización. Para detectar cuando una huella no es auténtica, para BBVA. Maquetación mediante webcomponents propios del banco y desarrollo del front end mediante lit-element, redux y consumo de servicios ASO, además del despliegue en ambientes previos.</p>
+                    <button mat-button (click)="openDialogHuella()">Maqueta</button>
                 </mat-card-actions>
-              </mat-card>
-        </div>
-        <div class="col-md-4">
-            <p>BBVA</p>
-        </div>
-        <div class="col-md-4">
-            <p>BBVA</p>
+            </mat-card>
         </div>
     </div>
 </div>

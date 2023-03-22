@@ -11,6 +11,7 @@ import {MatDialogModule} from '@angular/material/dialog';
 import { DialogSolisticaComponent } from './components/dialog-solistica/dialog-solistica.component';
 import {MatCardModule} from '@angular/material/card';
 import { ProfileComponent } from './components/profile/profile.component';
+import { DialogHuellaComponent } from './components/dialog-huella/dialog-huella.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ProfileComponent } from './components/profile/profile.component';
     ProyectosComponent,
     DialogSolisticaComponent,
     ProfileComponent,
+    DialogHuellaComponent,
 
   ],
   imports: [
