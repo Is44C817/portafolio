@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {MatDialog} from '@angular/material/dialog';
+import { ComunicadosComponent } from '../comunicados/comunicados.component';
+import { DialogCasaBolsaComponent } from '../dialog-casa-bolsa/dialog-casa-bolsa.component';
 import { DialogHuellaComponent } from '../dialog-huella/dialog-huella.component';
 import { DialogSolisticaComponent } from '../dialog-solistica/dialog-solistica.component';
 
@@ -25,6 +27,22 @@ export class ProyectosComponent implements OnInit {
 
   openDialogHuella() {
     const dialogRef = this.dialog.open(DialogHuellaComponent);
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
+
+  openDialogCasa() {
+    const dialogRef = this.dialog.open(DialogCasaBolsaComponent);
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
+
+  openDialogComunicados() {
+    const dialogRef = this.dialog.open(ComunicadosComponent);
 
     dialogRef.afterClosed().subscribe(result => {
       console.log(`Dialog result: ${result}`);
