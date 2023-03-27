@@ -15,6 +15,7 @@ import { DialogHuellaComponent } from './components/dialog-huella/dialog-huella.
 import { TecnologiasComponent } from './components/tecnologias/tecnologias.component';
 import { DialogCasaBolsaComponent } from './components/dialog-casa-bolsa/dialog-casa-bolsa.component';
 import { ComunicadosComponent } from './components/comunicados/comunicados.component';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ComunicadosComponent } from './components/comunicados/comunicados.compo
     AppRoutingModule,
     BrowserAnimationsModule,
     MatDialogModule,
-    MatCardModule
+    MatCardModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
