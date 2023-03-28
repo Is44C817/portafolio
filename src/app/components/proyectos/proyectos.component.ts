@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {MatDialog} from '@angular/material/dialog';
 import { ComunicadosComponent } from '../comunicados/comunicados.component';
 import { DialogCasaBolsaComponent } from '../dialog-casa-bolsa/dialog-casa-bolsa.component';
+import { DialogFigmaComponent } from '../dialog-figma/dialog-figma.component';
 import { DialogHuellaComponent } from '../dialog-huella/dialog-huella.component';
 import { DialogSolisticaComponent } from '../dialog-solistica/dialog-solistica.component';
 
@@ -43,6 +44,14 @@ export class ProyectosComponent implements OnInit {
 
   openDialogComunicados() {
     const dialogRef = this.dialog.open(ComunicadosComponent);
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
+
+  openDialogFigma() {
+    const dialogRef = this.dialog.open(DialogFigmaComponent);
 
     dialogRef.afterClosed().subscribe(result => {
       console.log(`Dialog result: ${result}`);

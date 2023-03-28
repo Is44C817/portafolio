@@ -16,6 +16,7 @@ import { TecnologiasComponent } from './components/tecnologias/tecnologias.compo
 import { DialogCasaBolsaComponent } from './components/dialog-casa-bolsa/dialog-casa-bolsa.component';
 import { ComunicadosComponent } from './components/comunicados/comunicados.component';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { DialogFigmaComponent } from './components/dialog-figma/dialog-figma.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
     TecnologiasComponent,
     DialogCasaBolsaComponent,
     ComunicadosComponent,
+    DialogFigmaComponent,
 
   ],
   imports: [
