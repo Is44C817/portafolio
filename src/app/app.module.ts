@@ -17,7 +17,7 @@ import { DialogCasaBolsaComponent } from './components/dialog-casa-bolsa/dialog-
 import { ComunicadosComponent } from './components/comunicados/comunicados.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { DialogFigmaComponent } from './components/dialog-figma/dialog-figma.component';
-
+import {MatTooltipModule} from '@angular/material/tooltip';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +38,8 @@ import { DialogFigmaComponent } from './components/dialog-figma/dialog-figma.com
     BrowserAnimationsModule,
     MatDialogModule,
     MatCardModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
